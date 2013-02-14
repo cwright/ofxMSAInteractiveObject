@@ -55,7 +55,7 @@ public:
 	void enableAppEvents();				// call this if object should update/draw automatically	(default)
 	void disableAppEvents();			// call this if object doesn't need to update/draw automatically
 
-	void setPos(float _x, float _y);	// set position of object
+	virtual void setPos(float _x, float _y);	// set position of object
 	void setSize(float _w, float _h);	// set size of object
 
 	void setPosAndSize(float _x, float _y, float _w, float _h);		// set pos and size
